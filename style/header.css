@@ -1,0 +1,17 @@
+.header {
+  background-color: #EF4934;
+  height: 80px;
+}
+
+.header__box {
+  height: 100%;
+  padding: 0 53px;
+  display: grid;
+  grid-template-columns: 55px auto 0;
+  align-items: center;
+}
+
+.header__logo {
+  width: 55px;
+  height: 57px;
+}

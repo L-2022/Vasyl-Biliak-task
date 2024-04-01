@@ -1,0 +1,57 @@
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./font.css");
+@import url("./index.css");
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contain__heading {
+    text-align: center;
+}
+
+.product-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.product-card__image-container {
+    height: 200px;
+    overflow: hidden;
+}
+
+.product-card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-card__info {
+    padding: 20px;
+}
+
+.product-card__title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.product-card__price {
+    font-weight: bold;
+    color: #0b8726;
+    margin-bottom: 10px;
+}
+
+.product-card__description {
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
